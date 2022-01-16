@@ -1,0 +1,478 @@
+body {
+            margin: 0px;
+            padding: 0px;
+            background: url('../img/background1.jpg') no-repeat;
+            width: 100%;
+            height: auto;
+        }
+
+        nav{
+            position: static;
+            position: absolute;
+            /* border: 2px solid black; */
+            /* background-color: rgb(130, 130, 133); */
+            width: 100%;
+            height: 120px;
+            top: 0px;
+        }
+
+        .left {
+            border: 2px solid black;
+            height: 120px;
+            width: 120px;
+            display: inline-block;
+            position: absolute;
+            top: 15px;
+            left: 100px;
+            border: 8px solid rgb(203, 107, 228);
+            border-radius: 70px;
+        }
+        .left:hover{
+            cursor: pointer;
+        }
+
+        .left img {
+            position: relative;
+            top: 10px;
+            left: 25px;
+            width: 50px;
+            height: 50px;
+            border-radius: 40px;
+        }
+
+        .left div {
+            font-family: 'Baloo Bhai', cursive;
+            color: rgb(175, 159, 159);
+            position: absolute;
+            left: 13px;
+            top: 70px;
+        }
+        .mid {
+            /* background-color: rgb(91, 91, 95); */
+            position: absolute;
+            /* border: 2px solid rgb(48, 48, 132); */
+            width: 60%;
+            top: 30px;
+            left: 500px;
+            height: 60px;
+        }
+
+
+
+        nav:before {
+            position: sticky;
+            content: " ";
+            /* background-color: black; */
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.4;
+
+        }
+
+        .mid .navbar li {
+            /* background-color: rgb(148, 148, 165); */
+            display: inline-block;
+            padding: 2px;
+            padding-left: 10px;
+
+        }
+
+        .mid .navbar li a {
+            border-radius: 9px;
+            margin: 5px;
+            font-family: 'Baloo Bhai', cursive;
+            /* background-color: rgb(116, 108, 108); */
+            /* color: white; */
+            /* font-family: 'Luxurious Roman', cursive; */
+            font-size: 25px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .mid .navbar li a:hover {
+
+            text-decoration: underline;
+            /* background-color: rgb(157, 151, 151); */
+        }
+        .mid ul li #buy_token{
+            border: 3px solid rgb(18, 14, 233);
+        }
+
+
+
+
+
+
+        /*For About section */
+    #about {
+        position: absolute;
+        top: 250px;
+        left: 50%;
+        display: flex;
+        flex-direction: column;
+        /* padding: 3px 200px; */
+        height: auto;
+        width: 50%;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+
+    #about h2 {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        font-size: 20px;
+    }
+
+    #about h1 {
+        font-family: 'Baloo Bhai 2', cursive;
+        position: absolute;
+        top: 20px;
+        line-height: 60px;
+        /* font-family: 'Baloo Bhai', cursive; */
+        font-size: 70px;
+        color: white;
+    }
+
+    #about h1 span {
+        color: tomato;
+
+    }
+
+    #about p {
+        position: absolute;
+        top: 190px;
+        font-family: 'Baloo Bhai', cursive;
+        font-size: 20px;
+        color: white;
+        line-height: 20px;
+    }
+    .buy_now{
+        /* border: 2px solid white; */
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .buy_now div a{
+        text-decoration: none;
+        cursor: pointer;
+    }
+    #buy:hover{
+        background: linear-gradient(45deg, red, blue);
+        cursor: pointer;
+    }
+    #start:hover{
+        background: linear-gradient(45deg, red, blue);
+    }
+
+    .buy_now #buy{
+        top: 300px;
+        position: absolute;
+        left: 0px;
+        border: 3px solid  rgb(80, 64, 64);
+        border-radius: 15px;
+        display: block;
+        display: inline-block;
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+    .buy_now #start{
+        position: absolute;
+        /* font-size: 30px; */
+        left: 210px;
+        top: 300px;
+        border: 3px solid  rgb(80, 64, 64);
+        border-radius: 15px;
+        display: block;
+        display: inline-block;
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+    
+    .buy_now div a img{
+        border: 3px solid rgb(207, 125, 86);
+        border-radius: 30px;
+        position: absolute;
+        top: 300px;
+        left: 450px;
+        width: 50px;
+        height: 30px;
+
+        
+            /* border:0px;
+            width:270px; 
+            height: 320px;
+            border-radius: 1000% 1000% 1000% 1000% / 1000% 1000% 1000% 1000%  ; */
+        
+    }
+    .buy_now div a img:hover{
+        cursor: pointer;
+
+    }
+
+    #mobile_img{
+        position: absolute;
+        top: 200px;
+        height: 700px;
+        left: 50px;
+        border-radius: 10px;
+    }
+    #services-container #services .h-primary_center{
+        text-align: center;
+        font: bold;
+        font-size: 40px;
+        font-family: 'Baloo Bhai', cursive;
+        background: linear-gradient(45deg, red, blue);
+        border-radius: 100px;
+        /* width: 100px; */
+    }
+    #services-container #services .h-primary_center:hover{
+        cursor: pointer;
+    }
+    #services-container #services {
+        position: absolute;
+        top: 1000px;
+        background: url('../img/background2.jpg');
+        color: white;
+    }
+    #services-container #services #services_detail {
+        align-items: center;
+        padding: 10px;
+    }
+    #services-container #services #services_detail .box {
+        position: relative;
+        left: 150px;
+        /* right: 120px; */
+        border: 7px solid rgb(212, 9, 9);
+        border-radius: 15px;
+        width: 18%;
+        padding: 30px;
+        margin: 20px;
+        display: block;
+        display: inline-block;
+        font-family: 'Baloo Bhai', cursive;
+    }
+    #services-container #services #services_detail .box:hover{
+        background: linear-gradient(45deg, red, blue);
+        
+    }
+
+    #tokenomics {
+        border: 2px solid rgb(5, 4, 4);
+        position: absolute;
+        top: 1510px;
+        width: 100%;
+        background: url('../img/background5.jpg') no-repeat;
+        height: 630px;
+    }
+
+    #tokenomics h1 {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        background: linear-gradient(45deg, red, blue);
+        width: 100%;
+   
+        color: white;
+        font-weight: bold;
+        border-radius: 25px;
+        font-size: 35px;
+    }
+
+    #tokenomics #tokenomics1 {
+        border: 2px solid white;
+    }
+
+    #tokenomics #tokenomics1 .tokenomics2 {
+        background: linear-gradient(45deg, red, blue);
+        border: 2px solid white;
+        border-radius: 15px;
+        display: block;
+        display: inline-block;
+        width: 90px;
+        font-weight: bold;
+        margin: 60px;
+        padding: 10px;
+    }
+
+    #four_box #set_box{
+        border: 2px solid rgb(255, 0, 0);
+    }
+    #four_box #set_box .boxes{
+        display: block;
+        display: inline-block;
+        border: 7px solid rgb(255, 0, 0);
+        width: 300px;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 25px;
+    }
+    #four_box #set_box .boxes:hover{
+        background: linear-gradient(45deg, red, blue);
+    } 
+
+    #g_tactics{
+        background: url('../img/background7.jpg');
+
+    }
+        
+    #g_tactics #alt1 {
+        position: relative;
+        border: 5px solid rgb(0, 0, 0);
+        align-items: center;
+
+    }
+    #g_tactics #alt1 .alternate2{
+        border: 5px solid rgb(255, 253, 253);
+        width: 190px;
+        display: block;
+        display: inline-block;
+        padding: 20px;
+        margin: 65px;
+        border-radius: 15px;
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+
+    }
+    #g_tactics #alt1 .alternate2:hover{
+        background: linear-gradient(120deg, red, blue);
+        opacity: 0.9;
+    }
+
+    #roadmao_section {
+        background: url('../img/background8.jpg');
+    }
+
+    #roadmao_section #roadmap {
+        /* border: 3px solid white; */
+
+    }
+
+    #roadmao_section #roadmap div {
+        /* border: 3px solid white; */
+        color: white;
+        width: 45%;
+        height: auto;
+        border-radius: 25px;
+        display: block;
+        display: inline-block;
+    }
+
+    #roadmao_section #roadmap .left_part {
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+
+    #roadmao_section #roadmap .left_part span {
+        /* border: 2px solid white; */
+        border-radius: 15px;
+    }
+
+    #roadmao_section #roadmap .right_part {
+        background: linear-gradient(45deg, red , blue);
+        height: auto;
+        padding: 27px;
+        margin: 10px;
+    }
+
+    #roadmao_section #roadmap .right_part .left_spanU {
+        font-size: 50px;
+        /* border: 2px solid red; */
+
+    }
+
+    .left_part {
+        line-height: 50px;
+    }
+
+    .left_part .left_spanU {
+        background: linear-gradient(45deg, red, blue);
+        /* margin: 10px; */
+        padding: 7px;
+        font-size: 40px;
+    }
+
+    .right_part span {
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+
+    }
+
+    .right_part {
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+
+    .left_spanD {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    #last_section_logo div {
+        /* border: 2px solid white; */
+        color: white;
+        text-align: center;
+        font-family: 'Baloo Bhai', cursive;
+        color: rgb(175, 159, 159);
+    }
+
+    #last_section_logo img {
+        position: relative;
+        left: 10px;
+        /* border: 2px solid white; */
+        color: white;
+
+        text-align: center;
+
+    }
+
+
+    #last_section_logo {
+        position: relative;
+        left: 500px;
+        bottom: 60px;
+        border: 8px solid rgb(203, 107, 228);
+        border-radius: 150px;
+        height: 100px;
+        width: 100px;
+        /* background-color: rgb(63, 51, 51);
+        opacity: 0.5; */
+    }
+
+    #last_social_media h3 {
+        color: white;
+        font-family: 'Baloo Bhai', cursive;
+        background: linear-gradient(45deg, red, blue);
+        border-radius: 15px;
+        /* opacity: 0.7; */
+        text-align: center;
+    }
+
+    #last_social_media div a {
+        color: white;
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+    }
+
+    #last_section {
+        background: url('../img/background10.jpg');
+    }
+
+    .last_section_box {
+        /* background-color: white;
+        opacity: 0.5; */
+        border-radius: 25px;
+        border: 2px solid rgb(255, 255, 255);
+        margin-left: 200px;
+        margin-top: 100px;
+        padding: 30px;
+        /* margin: 100px; */
+        width: 200px;
+        display: block;
+        display: inline-block;
+        align-items: center;
+    }
